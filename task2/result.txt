@@ -1,0 +1,37 @@
+Sure! Here's your note converted into a well-structured Jira-style bug ticket:
+
+Title
+Logout Button Unresponsive on Safari
+
+Description
+The logout button does not function as expected when accessed via the Safari browser. Clicking the button has no effect — there is no logout action triggered and no feedback provided to the user. This issue appears to be isolated to Safari and is not reproducible in other browsers like Chrome or Firefox.
+
+Steps to Reproduce
+
+Open the application in Safari (tested on macOS).
+
+Log in with valid user credentials.
+
+Attempt to log out by clicking the logout button in the top navigation bar.
+
+Expected vs Actual Behavior
+Expected:
+User should be logged out of the application and redirected to the login screen (or appropriate landing page).
+
+Actual:
+Nothing happens when the logout button is clicked. No visual feedback or navigation occurs.
+
+Environment (if known)
+
+Browser: Safari 17.4
+
+OS: macOS Sonoma 14.4
+
+Application version: [Insert version if applicable]
+
+Logged-in user role: [Insert role, e.g., Admin, Regular User]
+
+Severity or Impact
+Medium — Affects user ability to log out, which could pose security concerns, especially on shared devices. Only reproducible on Safari.
+
+Let me know if you want to link it to a specific epic or sprint.

@@ -1,0 +1,13 @@
+You're in the middle of QA or development and come across a bug. You wrote down a quick note like:
+“Logout button doesn’t work on Safari. It just doesn’t respond.”
+
+You need to convert this note nto a clear, well-structured bug ticket. The output should follow this format:
+
+Title
+Description
+Steps to Reproduce
+Expected vs Actual Behavior
+Environment (if known)
+Severity or Impact
+
+Customise it for Jira
