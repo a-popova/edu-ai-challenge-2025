@@ -1,4 +1,4 @@
-import readline from 'readline';
+import readline from 'node:readline';
 
 // ==================== CONFIGURATION MODULE ====================
 /**
@@ -877,8 +877,9 @@ export {
  * Application entry point.
  * Creates and starts the main game controller.
  */
-// Only run the game if this is the main module (not imported for testing)
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Run the game if this is the main module
+const isMainModule = process.argv[1] && process.argv[1].includes('seabattle.js');
+if (isMainModule) {
   const seaBattleGame = new SeaBattleGameController();
   seaBattleGame.startGameApplication().catch(console.error);
 }
