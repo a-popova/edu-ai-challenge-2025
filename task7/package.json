@@ -1,0 +1,50 @@
+{
+  "name": "sea-battle-game",
+  "version": "1.0.0",
+  "description": "A modernized Sea Battle game with ES6+ features and professional architecture",
+  "type": "module",
+  "main": "seabattle.js",
+  "scripts": {
+    "start": "node seabattle.js",
+    "play": "node seabattle.js",
+    "test": "cross-env NODE_OPTIONS=\"--experimental-vm-modules\" npx jest",
+    "test:watch": "cross-env NODE_OPTIONS=\"--experimental-vm-modules\" npx jest --watch",
+    "test:coverage": "cross-env NODE_OPTIONS=\"--experimental-vm-modules\" npx jest --coverage",
+    "test:verbose": "cross-env NODE_OPTIONS=\"--experimental-vm-modules\" npx jest --verbose"
+  },
+  "keywords": [
+    "battleship",
+    "game",
+    "console",
+    "es6",
+    "javascript"
+  ],
+  "author": "Refactored for modern JavaScript standards",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "cross-env": "^7.0.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {},
+    "collectCoverageFrom": [
+      "seabattle.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 60,
+        "functions": 60,
+        "lines": 60,
+        "statements": 60
+      }
+    }
+  }
+} 
