@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# TypeScript build output
+dist/
+build/
+*.tsbuildinfo
+
+# Test coverage
+coverage/
