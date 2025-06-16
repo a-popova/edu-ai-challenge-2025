@@ -1,0 +1,10 @@
+{
+    "name": "console-app",
+    "version": "1.0.0",
+    "description": "A robust, type-safe validation library built with TypeScript",
+    "dependencies": {
+        "dotenv": "^16.5.0",
+        "openai": "^5.3.0"
+    },
+    "type": "module"
+}
