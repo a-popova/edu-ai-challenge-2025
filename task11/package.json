@@ -1,0 +1,21 @@
+{
+  "name": "audio-transcription-analyzer",
+  "version": "1.0.0",
+  "description": "Console application for audio transcription and analysis using OpenAI Whisper API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["audio", "transcription", "whisper", "openai", "analysis"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.24.1",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "dotenv": "^16.3.1"
+  }
+} 
